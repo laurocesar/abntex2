@@ -2034,7 +2034,7 @@ FUNCTION {set.default.abnt.variables}
   "$Revision: v<VERSION> $" extract.cvs.key 'abnt.bst.revision :=
   #0 'abnt.and.type     :=     % #0 "e"; #1 "&"
   "\emph" 'abnt.emphasize :=
-  #0 'abnt.cite.style :=       %default norm version for NBR10520
+  #1 'abnt.cite.style :=       %default norm version for NBR10520
                                %#0 \cite=(AUTHOR, YEAR)
 			       %#1 \cite=(Author, YEAR)
   #0 'abnt.experimental :=
